@@ -1,0 +1,3 @@
+---
+nullmailer_remotes:
+  - smtp.mandrillapp.com smtp --port=587 --user={{ nullmailer_mandrill_username }} --pass={{ nullmailer_mandrill_api_key }}

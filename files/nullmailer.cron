@@ -1,0 +1,1 @@
+33 3 * * * root find /var/spool/nullmailer/queue/ -type f -mtime +1 -delete

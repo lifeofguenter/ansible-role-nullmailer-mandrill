@@ -1,0 +1,4 @@
+---
+- name: Add cleanup cronjob
+  copy: src=nullmailer.cron dest=/etc/cron.d/nullmailer mode=0644
+  become: yes
